@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    tty: true
