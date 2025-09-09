@@ -1,0 +1,2 @@
+# No external dependencies required for the base system.
+# Optional: set GROQ_API_KEY in env to enable LLM-assisted planning (mocked).
